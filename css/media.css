@@ -1,0 +1,297 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)  {
+/*header start*/
+	header{
+		padding: 5px 0;
+	}
+
+    .logo{
+        width: 150px;
+    }
+
+	.menu ul li a{
+		padding: 0 14px 5px !important;
+    }
+    
+    .btn_menu {
+    margin-left: 0;
+    }
+
+     /*banner start*/
+
+
+    .b_text{
+    	text-align: center;
+    }
+
+    .b_h1{
+        margin: 10px 0px 15px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .b_p2 {
+    margin: 0 10px;
+    line-height: 20px;
+    }
+
+    .b_img{
+        margin: 0 0 30px;
+    }
+
+    /*banner end*/
+
+    /*feature start*/
+    .c_padding{
+        padding-bottom: 60px;
+    }
+
+    .f_content{
+    margin: 40px 0 0;
+    }
+    /*feature end*/
+    /*course start*/
+    .cm_h1{
+     font-size: 25px 
+    }
+
+    .c_icon{
+    width: 15px;
+    }
+
+    .c_text {
+    font-size: 13px;
+    font-weight:400;
+    }
+
+    .c_content {
+    margin: 30px 0 0;
+    }
+    /*course end*/
+    .t_item{
+    margin-top: 30px;
+    }
+    .t_img {
+    padding: 0 50px 20px;
+    }
+    .t_text {
+    text-align: center;
+    }
+/* testimony end */
+
+      /*footer top*/
+    .footer_top {
+    text-align: center;
+   }
+
+
+   .ft_details {
+        padding-right: 35px;
+        padding-left: 34px;
+        margin-bottom: 30px;
+    }
+
+    .ft_links {
+    padding-bottom: 12px;
+    }
+
+
+ 
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/*header start*/
+	header{
+		padding: 5px 0;
+	}
+
+    .logo{
+        width: 170px;
+    }
+
+	.menu ul li a{
+		padding: 0 14px 5px !important;
+    }
+
+    .btn_menu {
+    margin-left: 0;
+    }
+    /*header end*/
+
+    /*banner start*/
+
+    .b_text{
+    	text-align: center;
+    }
+
+    .b_h1 {
+    margin: 10px 30px 20px;
+    font-size: 33px;
+    line-height: 48px;
+    }
+    
+    .b_p2 {
+    margin: 0 35px;
+    line-height: 26px;
+    }
+
+    .b_img{
+        margin: 0 50px 30px;
+    }
+
+    /*banner end*/
+
+       /*feature start*/
+    .c_padding{
+        padding-bottom: 60px;
+    }
+
+    .f_content{
+    margin: 40px 0 0;
+    }
+    /*feature end*/
+    /*course start*/
+    .cm_h1{
+     font-size: 25px 
+    }
+
+    .c_content {
+    margin: 40px 60px 0;
+    }
+    /*course end*/
+
+
+    /*footer top*/
+    .footer_top {
+    text-align: center;
+   }
+
+
+   .ft_details {
+        padding-right: 70px;
+        padding-left: 70px;
+        margin-bottom: 35px;
+    }
+
+
+
+}
+
+    
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header start*/
+	header{
+		padding: 10px 0;
+	}
+
+	.menu ul li a{
+		padding: 0 14px 5px !important;
+     }
+    .btn_menu {
+    margin-left: 0;
+    }
+    /*header end*/
+    /*banner start*/
+
+
+    .b_text{
+    	text-align: center;
+    }
+
+    .b_h1 {
+    margin: 10px 125px 20px;
+    font-size: 40px;
+    line-height: 60px;
+    }
+    
+    .b_p2 {
+    margin: 0 65px;
+    line-height: 30px;
+    }
+
+    .b_img{
+        margin: 0 50px 30px;
+    }
+
+    /*banner end*/
+
+
+    /*feature start*/
+    .c_padding{
+    	padding-bottom: 80px;
+    }
+
+    .f_content{
+    margin: 45px 0 0;
+    }
+    /*feature end*/
+    /*course start*/
+    .cm_h1{
+     font-size: 30px 
+    }
+
+    .c_content {
+    margin: 45px 100px 0;
+    }
+    /*course end*/
+    /*testimony start*/
+    .t_item{
+        margin-top: 35px;
+    }
+    /*testimony end*/
+
+    /*footer top*/
+    .footer_top {
+    text-align: center;
+   }
+
+.ft_details {
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-bottom: 45px;
+   }
+
+
+  
+}
+/**Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+/*banner start*/
+	.b_h1{
+		margin: 10px 45px 20px 0;
+	}
+	/*banner end*/
+
+    /*course start*/
+    .c_icon{
+    width: 15px;
+    }
+
+    .c_text {
+    font-size: 13px;
+    font-weight:400;
+    }
+    /*course end*/
+
+   
+}
+
+/* Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	/*banner start*/
+	.b_h1{
+		margin: 10px 45px 20px 0;
+	}
+	/*banner end*/
+
+  
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+ 
+}
+
